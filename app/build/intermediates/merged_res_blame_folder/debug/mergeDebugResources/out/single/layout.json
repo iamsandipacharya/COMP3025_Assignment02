@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.cinema_magic.app-mergeDebugResources-35:/layout/activity_main.xml",
+        "source": "com.example.cinema_magic.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.cinema_magic.app-mergeDebugResources-35:/layout/movie_details.xml",
+        "source": "com.example.cinema_magic.app-main-38:/layout/movie_details.xml"
+    },
+    {
+        "merged": "com.example.cinema_magic.app-mergeDebugResources-35:/layout/movie_item.xml",
+        "source": "com.example.cinema_magic.app-main-38:/layout/movie_item.xml"
+    }
+]

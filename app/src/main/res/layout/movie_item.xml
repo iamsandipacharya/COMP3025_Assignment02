@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="?android:attr/selectableItemBackground">
+
+<!--    Movie Title-->
+    <TextView
+        android:id="@+id/rowMovieTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Movie Title"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginStart="4dp"
+        android:maxLines="5"
+        android:ellipsize="end"
+        android:textColor="#000000"
+        android:breakStrategy="simple" />
+
+<!--    Released Year-->
+    <TextView
+        android:id="@+id/rowMovieYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Year"
+        android:textSize="18sp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#555555"
+        android:layout_marginStart="12dp" />
+
+    <!--    Movie Rating-->
+    <TextView
+        android:id="@+id/rowMovieRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rating"
+        android:textSize="18sp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#555555"
+        android:layout_marginStart="12dp" />
+
+    <!-- Movie Studio -->
+    <TextView
+        android:id="@+id/rowMovieStudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Studio"
+        android:textSize="18sp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#555555"
+        android:layout_marginStart="12dp" />
+
+</LinearLayout>

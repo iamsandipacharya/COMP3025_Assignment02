@@ -1,0 +1,3 @@
+com.example.cinema_magic.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme
