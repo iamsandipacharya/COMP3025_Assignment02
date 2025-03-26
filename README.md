@@ -1,0 +1,2 @@
+#COMP3025_Assignment02
+#CinemaMagicApp
